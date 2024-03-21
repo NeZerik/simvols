@@ -1,0 +1,26 @@
+body{
+    background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlYlaujB7tgcu_NXVkmREub4OsH6lLIih5Oen8AYYdhbGgMhH9TGdDhpF1kSC20YunGgoZKYYkNsxEW7S-rIolzb5GaBjfcZ3LYQLJMugns5QsVQMKQ2UyxeAicN_yDn5Z8KdyQisAIn-y/s1600/rsz_glenn-carstens-peters-rlw-uc03gwc-unsplash_800.jpg) ;
+    background-size: 100%;
+    background-attachment: fixed;
+} 
+p{
+    background: linear-gradient(85deg, #fb63f9, #c2e534);
+    font-size:  80px;
+    text-align: center;
+}
+ul{
+    font-size: 25px;
+    color: rgb(5, 131, 131);
+}
+ul.u1 li::marker{
+    color: #c2e534;
+    font-size: 1.5em;
+}
+div.lists-container {
+    display: flex; /* Размещаем списки в ряд */
+    justify-content: space-between; /* Распределение пространства между элементами */
+}
+ol{
+    font-size: 25px;
+    color: rgb(5, 131, 131);
+}
